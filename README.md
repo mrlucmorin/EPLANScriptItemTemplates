@@ -15,7 +15,9 @@ There are 3 types of templates provided:
 
 ###Run Scripts
 
-Those arer scripts that do not add an `Action` to EPLAN, but rather are meant to be ran on demand. They are not loaded in memory, and will be called by the EPLAN menu, or from a toolbar button with the `ExecuteScript` action.
+Those arer scripts that do not add an `Action` to EPLAN, but rather are meant to be ran on demand. They are not loaded in memory, and will be called by the EPLAN *Utilities > Scripts > Run...* menu, or from a toolbar button with the `ExecuteScript` action:
+
+`ExecuteScript /ScriptFile:"C:\Users\Public\EPLAN\Data\Scripts\ABC\SwitchUnits.cs"`
 
 ###Loaded Scripts
 
