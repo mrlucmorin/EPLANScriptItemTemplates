@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>LoadedScriptWithMenu.cs</DefaultName>
+    <Name>EPLAN Loaded Script With Menu</Name>
+    <Description>EPLAN Loaded Script With Menu</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>ScriptIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">LoadedScriptWithMenu.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

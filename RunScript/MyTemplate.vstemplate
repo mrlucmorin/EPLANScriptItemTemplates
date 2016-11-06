@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>RunScript.cs</DefaultName>
+    <Name>EPLAN Run Script</Name>
+    <Description>EPLAN Run Script</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>ScriptIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">RunScript.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
